@@ -11,6 +11,9 @@ This is the official implementation of our paper ["EasyInv: Toward Fast and Bett
 
 5. Since COCO 2017 is a open source dataset, we submit our image chosen script "choose_img.py" together with codes instead. Anyone who have download the COCO 2017 dataset can extract images we used by this script from the testing and validation set.
 
+# Implement our method on your own inversion framework
+If you have already implement DDIM inversion, please check example.py for applying our methods to improve it. As we mentioned, this is really easy.
+
 # Reference
 Part of our codes are based on following two projects:
 1. [prompt-to-prompt](https://github.com/google/prompt-to-prompt)
