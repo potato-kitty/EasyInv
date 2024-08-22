@@ -1,5 +1,5 @@
 # EasyInv
-This is the official implementation of our paper "EasyInv: Toward Fast and Better DDIM Inversion"
+This is the official implementation of our paper ["EasyInv: Toward Fast and Better DDIM Inversion"](https://arxiv.org/html/2408.05159v1)
 
 1. Before running the codes, copy three files in folder "replace_diffusers" to ".../site-packages/diffusers/models/" and replace the original files. Rember to make a backup of these replaced files incase you want to run other project in this enviroment.
 
