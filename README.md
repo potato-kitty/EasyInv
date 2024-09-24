@@ -15,7 +15,7 @@ This is the official implementation of our paper ["EasyInv: Toward Fast and Bett
 If you have already implement DDIM inversion, please check example.py for applying our methods to improve it. As we mentioned, this is really easy.
 
 # Reference
-Part of our codes are based on following two projects:
+Part of our codes are based on following project:
 1. [prompt-to-prompt](https://github.com/google/prompt-to-prompt)
 ```bibtex
 @article{hertz2022prompt,
