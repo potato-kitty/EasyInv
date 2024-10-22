@@ -1,9 +1,9 @@
 # EasyInv
 This is the official implementation of our paper ["EasyInv: Toward Fast and Better DDIM Inversion"](https://arxiv.org/html/2408.05159v1)
 If you are running our codes based on SDV1-4, then
-    1. Before running the codes, copy three files in folder "replace_diffusers" to ".../site-packages/diffusers/models/" and replace the original files. Rember to make a backup of these replaced files incase you want to run other project in this enviroment.
-    
-    2. Run "by_referenceSDV1-4.ipynb" for trying our method.
+1. Before running the codes, copy three files in folder "replace_diffusers" to ".../site-packages/diffusers/models/" and replace the original files. Rember to make a backup of these replaced files incase you want to run other project in this enviroment.
+
+2. Run "by_referenceSDV1-4.ipynb" for trying our method.
 
 Otherwise, for SDXL version, run "EasyInv_SDXL/by_reference.ipynb".
 
