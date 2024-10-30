@@ -3,11 +3,10 @@
 # here is an example of time-steps iteration
 for i, t in enumerate(tqdm(reversed(model.scheduler.timesteps), desc="DDIM Inversion")):
 
-    noise_pred = step_backward(model,latents,context,guidance_scale,t)
-    noise_pred = noise_pred.requires_grad_(True)
-    last_noise = noise_pred
+    noise_pred = DDIM_inversion(model,latents,context,guidance_scale,t)
 
-    # above is an example of DDIM inversion, inject following codes right after it
+    # above is an example of inversion, it could be basically any inversion algorithm, noise_pred should be the inverse noise predicted, 
+    # inject following codes right after it to apply our method
 
     if (inject_steps + inject_len)*num_inference_steps > i > inject_steps*num_inference_steps:
         if i > 0:
