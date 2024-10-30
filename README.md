@@ -18,7 +18,7 @@ For whatever version you expect to try, please make sure your own paths in .ipyn
 4. For testing on your own images, make sure they are name in continues integers starting from 0 and in the type of .jpeg, for example '0.jpeg', '1.jpeg', ......, '999.jpeg'. Besides, all these image shounld be square.
 
 # Implement our method on your own inversion framework
-If you have already implement DDIM inversion, please check example.py for applying our methods to improve it. As we mentioned, this is really easy.
+If you have already implement DDIM inversion, please check 'example.py' for applying our methods to improve it. As we mentioned, this is really easy.
 
 # Reference
 Part of our codes are based on following project:
